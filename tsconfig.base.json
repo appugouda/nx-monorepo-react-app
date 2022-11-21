@@ -1,0 +1,25 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@brady-comm/api-interfaces": ["libs/api-interfaces/src/index.ts"],
+      "@brady-comm/common-ui": ["libs/common-ui/src/index.ts"],
+      "@brady-comm/menu": ["libs/menu/src/index.ts"],
+      "@brady-comm/models": ["libs/models/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
